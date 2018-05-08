@@ -1,0 +1,66 @@
+body{
+    background: #fff;
+}
+.header{
+    background: rgba(255,255,255,0.97);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px #868686;
+    z-index: 9999;
+}
+.headerBox{
+    width: 90%;
+    height: 88px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.siteLogo{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.siteLogo img{
+    width: 60px;
+}
+.siteMenu{
+    line-height: 50px;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: right;
+    color: #ababab;
+}
+.siteMenu .i-menu{
+    display: inline-block;
+    margin-left: 12px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+.siteMenu .i-menu:hover{
+    border-bottom: 2px solid #db6161;
+    color: #666;
+}
+
+
+ .footer{
+     min-height: 100px;
+     background: #f2f2f2;
+     color: #5a5a5a;
+     text-align: center;
+     padding-top: 20px;
+     font-size: 14px;
+     box-shadow: 0 0 10px #ccc;
+     letter-spacing: 1px;
+     text-indent: 1px;
+     position: relative;
+     z-index: 9999;
+ }
+.footer p{
+    margin: 0;
+    line-height: 1.5em;
+    margin-top: 16px;
+
+}
