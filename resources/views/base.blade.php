@@ -66,6 +66,14 @@
         </div>
     </div>
 </div>
+<div style="
+text-align: center;
+width: 100%;
+line-height: 66px;
+background: #f8f8f8;
+color: #b03636;
+margin: 0 auto;
+margin-top:100px">因央行对于第三方支付政策问题，无法为大家提供服务，望见谅！</div>
 @section('myPage')
 @show
 {{--页脚--}}

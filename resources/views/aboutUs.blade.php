@@ -2,7 +2,7 @@
 
 @section('myPage')
     {{--辰象科技--}}
-    <div class="showItem">
+    <div class="showItem showItem-top">
         {{--名称--}}
         <div class="showItemClass">辰象科技</div>
         {{--介绍--}}
@@ -42,6 +42,9 @@
             line-height: 1.5em;
             box-sizing: border-box;
         }
+		.showItem-top{
+			margin-top:46px
+		}
         .showItemClass{
             font-size: 18px;
             font-weight: bold;
@@ -62,7 +65,6 @@
             color: #666;
         }
         body{
-            padding-top: 128px;
         }
         .footer{
             margin-top: 88px;

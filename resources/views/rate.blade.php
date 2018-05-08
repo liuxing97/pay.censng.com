@@ -72,7 +72,6 @@
         color: #666;
     }
     body{
-        padding-top: 112px;
     }
     .footer{
         margin-top: 88px;

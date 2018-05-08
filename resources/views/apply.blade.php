@@ -43,7 +43,6 @@
             color: #666;
         }
         body{
-            padding-top: 88px;
         }
         .invitation{
             width: 100%;
